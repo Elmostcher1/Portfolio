@@ -8,6 +8,7 @@ import photo_css_3 from '../../assets/photo_css_3.jpg';
 import photo_css_2 from '../../assets/photo_css_2.jpg';
 import photo_react_2 from '../../assets/photo-react_2.jpg';
 import dash from '../../assets/dash.jpg';
+import portfolio from '../../assets/portfolio.jpg';
 
 function Portfolio() {
 
@@ -22,6 +23,22 @@ function Portfolio() {
       </div>
 
       <div className='all_card_pro row mt-5  '>
+      <div className="  col-lg-4 col-md-6 col-sm-12 mb-3">
+        <div className='card_pro w-100 p-2'>
+          <div className='div_img' >
+            <img src={portfolio} alt='' className='w-100 h-100'/>
+          </div>
+          <div className='d-flex flex-column'>
+            <p className='m-0 p-0'>💼 My Portfolio</p>
+            <p className='m-0 p-0'>Welcome to my portfolio! Here you’ll find a selection of my front-end web projects built using HTML, CSS, JavaScript, and Bootstrap. Each project reflects my focus on clean design, responsive layout, and a smooth user experience.</p>
+            <p className='m-0 p-0'>React & Bootstrap</p>
+            <div className='icons_pro flex'>
+              <a href="https://elmostcher1.github.io/Portfolio/" ><HiExternalLink /></a>
+          </div>
+
+          </div>
+        </div>
+      </div>
       <div className="  col-lg-4 col-md-6 col-sm-12 mb-3">
         <div className='card_pro w-100 p-2'>
           <div className='div_img' >
