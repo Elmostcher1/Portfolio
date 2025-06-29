@@ -45,12 +45,16 @@
     align-self: flex-end;
     gap: 5px;
 }
-.icons_pro a{
+.icons_pro > a{
+    text-decoration: none;
     color: var(--white-color);
-    font-size: 25px;
+    font-size: 30px;
     transition: 0.5s;
 }
-.icons_pro a:hover{
+.icons_pro > a span{
+    font-size: 15px;
+}
+.icons_pro > a:hover{
     color: var(--main-color);
 }
 /* ........... */
