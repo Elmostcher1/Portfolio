@@ -1,0 +1,28 @@
+.Contact {
+    cursor: pointer;
+}
+
+.Contact > div{
+    background-color: var(--low-dark);
+    width: 80%;
+}
+
+.card_contact > div:nth-of-type(2){
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+}
+.card_contact > div:nth-of-type(2){
+    font-size: 25px;
+}
+.sec_2{
+    width:100%;
+    padding: 20px !important;
+}
+.link_my_socail{
+    font-size: 22px;
+   transition: 0.5s;
+}
+.link_my_socail:hover{
+    color: rgb(14, 13, 13) !important;
+
+}

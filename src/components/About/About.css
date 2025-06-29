@@ -1,0 +1,84 @@
+.About {
+    overflow: hidden;
+}
+.big_card {
+    width: 80%;
+    background-color: var(--low-dark);
+    border-radius: 5px;
+}
+.big_card  div .text_line_{
+    color: var(--ccc-color);
+}
+.big_card  div span{
+   color: var(--main-color) !important;
+   width: 20%;
+   height: 30px;
+ margin-top: 5px;
+ margin-left: 5px;
+}
+.big_card .text_{
+    width: 70%;
+    color: var(--ccc-color);
+}
+.big_card .text_ > p span{
+    opacity: 0;
+}
+.text_line{
+    position: relative;
+    margin-left: 100px;
+    color: var(--white-color);
+}
+.text_line::after{
+     content: '';
+    position: absolute;
+   top: 60%;
+   left: -85px;
+   background-color: var(--main-color);
+   width: 10%;
+   height: 2px;
+}
+.div_button a{
+    background-color: transparent !important;
+    border: 1px solid var(--dark-color);
+    color: var(--ccc-color);
+    transition: 0.5s;
+}
+.div_button a:hover{
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.div_card_skills .card_Skill{
+    border: 1px solid var(--low-dark);
+    padding: 8px 12px;
+    padding-right: 60px;
+    border-radius: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.div_card_skills .card_Skill p{
+    color: var(--white-color);
+    cursor: pointer;
+
+}
+.div_card_skills .card_Skill *{
+    transition: 0.5s;
+}
+.div_card_skills .card_Skill:hover{
+    border: 1px solid var(--main-color);
+}
+.div_card_skills .card_Skill:hover p{
+    transform: translateY(-4px);
+    color: var(--main-color);
+}
+.div_card_skills .card_Skill img{
+    border: 1px solid var(--dark-color);
+}
+.div_card_skills .card_Skill:hover img{
+    
+    border: 1px solid var(--main-color);
+}

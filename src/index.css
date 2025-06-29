@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+:root{
+    --font-my-name :"Dancing Script", cursive ;
+    --main-color : #cece2b;
+    --dark-color : #000 ;
+    --white-color : #fff ;
+    --ccc-color : #ccc ;
+    --low-dark : #1a1a1a ;
+    --text-con : #fff ;
+}
+.dark{
+    --dark-color : #ffff !important ;
+    --white-color : #000000 !important ;
+    --low-dark : #424242 !important;
+     --text-con : #ccc !important;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+  padding-bottom: 50px;
+  font-family: 'Playfair Display', serif;
+    background-color: var(--dark-color) !important;
+}
+@media (max-width : 990px) {
+  .header > div , .detalis_about , .div_contact_sec , .card_contact{
+  flex-direction: column;
+  }
+  
+ .detalis_about .card_img{
+    width: 80% !important; 
+ }
+ .detalis_about .text_{
+    width: 100% !important;
+  }
+  .Contact .div_contact_sec{
+    margin: 30px !important;
+    padding: 10px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width : 490px) {
+  .text_owner::after{
+    width: 0;
+    height:0 ;
+    background-color: transparent !important;
+  }
+  
+}
+@media (max-width : 310px) {
+  .text_owner::after{
+    width: 100%;
+    height:100% ;
+    background-color: var(--dark-color) !important;
+  }
+}
+
+/* -- products CSS */
+.btn_top{
+    transition: 0.5s;
+    font-size: 23px;
+    padding-top: 3px;
+}
+.btn_top:hover{
+background-color: transparent;
+border: 1px solid var(--main-color);
+color: var(--main-color);
+}
+.btn_top{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.5s;
+    border:1px solid var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
