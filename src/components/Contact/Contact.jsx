@@ -48,7 +48,7 @@ function Contact() {
       <div className="card_contact gap-2 mt-4 ">
  
         <div className='flex gap-3' style={{color : "var(--main-color)"}}>
-          <a style={{color : "var(--main-color)"}} className='link_my_socail' href="https://www.facebook.com/share/1C4WMwhuHY/"><FaFacebookF /></a>
+          <a style={{color : "var(--main-color)"}} className='link_my_socail' href="https://m.me/ahmed.mohamed.983958"><FaFacebookF /></a>
           <a style={{color : "var(--main-color)"}} className='link_my_socail' href="https://wa.me/qr/5OPLG5HSLMYKP1"><FaWhatsapp /></a>
           <a style={{color : "var(--main-color)"}} className='link_my_socail' href="https://www.instagram.com/a_h_m_e_d_7_1_?igsh=MWc4azZ0cjRyOXh6OA=="><FaInstagram /></a>
           </div>
