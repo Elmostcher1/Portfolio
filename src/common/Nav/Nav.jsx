@@ -26,7 +26,7 @@ return (
           <Link to={'about'} className="nav-link a-hover" >About</Link>
         </li>
         <li className="nav-item">
-          <Link to={'pro'} className="nav-link a-hover" href="#">Portfolio</Link>
+          <Link to={'pro'} className="nav-link a-hover" href="#">Projects</Link>
         </li>
         <li className="nav-item">
           <Link to={'contact'} className="nav-link a-hover" href="#">Contact</Link>
